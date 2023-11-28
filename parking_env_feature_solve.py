@@ -24,11 +24,9 @@ def make_gym_env():
     env = Monitor(env, "PEFlogs2/monitor")
     return env
 
-vec_env = make_vec_env(lambda: make_gym_env(), n_envs=14)
+vec_env = make_vec_env(lambda: make_gym_env(), n_envs=1)
 
-eval_callback = EvalCallback(vec_env, best_model_save_path="./PEFlogs2/best/",
-                             log_path="./PEFlogs2/best/", eval_freq=1000,
-                             deterministic=True, render=False)
+eval_callback = EvalCallback(vec_env, best_model_save_path="./PEFlogs2/best/",log_path="./PEFlogs2/best/", eval_freq=1000, deterministic=True, render=False)
 
 
 
@@ -36,5 +34,5 @@ eval_callback = EvalCallback(vec_env, best_model_save_path="./PEFlogs2/best/",
 model = PPO("MlpPolicy", vec_env, verbose=1)
 
 model.set_logger(new_logger)
-model.learn(total_timesteps=10000000, callback=[checkpoint_callback, eval_callback])
+model.learn(total_timesteps=10000, callback=[checkpoint_callback, eval_callback])
 model.save("PEFlogs2/parking_env_feature_final_model")
