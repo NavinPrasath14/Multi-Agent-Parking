@@ -4,7 +4,133 @@ Logging to ./PEFlogs2/parking_env_feature_log/
 |    mean_ep_length  | 300      |
 |    mean_reward     | -300     |
 | time/              |          |
+|    total_timesteps | 100      |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 200      |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 300      |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 400      |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 500      |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 600      |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 700      |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 240      |
+|    mean_reward     | 160      |
+| time/              |          |
+|    total_timesteps | 800      |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 900      |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
 |    total_timesteps | 1000     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 240      |
+|    mean_reward     | 160      |
+| time/              |          |
+|    total_timesteps | 1100     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 1200     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 1300     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 1400     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 1500     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 1600     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 240      |
+|    mean_reward     | 160      |
+| time/              |          |
+|    total_timesteps | 1700     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 1800     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 1900     |
 ---------------------------------
 ---------------------------------
 | eval/              |          |
@@ -15,32 +141,158 @@ Logging to ./PEFlogs2/parking_env_feature_log/
 ---------------------------------
 ---------------------------------
 | rollout/           |          |
-|    ep_len_mean     | 182      |
-|    ep_rew_mean     | 819      |
+|    ep_len_mean     | 56       |
+|    ep_rew_mean     | 1.94e+03 |
 | time/              |          |
-|    fps             | 736      |
+|    fps             | 127      |
 |    iterations      | 1        |
-|    time_elapsed    | 2        |
+|    time_elapsed    | 16       |
 |    total_timesteps | 2048     |
 ---------------------------------
------------------------------------------
-| eval/                   |             |
-|    mean_ep_length       | 300         |
-|    mean_reward          | -300        |
-| time/                   |             |
-|    total_timesteps      | 3000        |
-| train/                  |             |
-|    approx_kl            | 0.004767876 |
-|    clip_fraction        | 0.00547     |
-|    clip_range           | 0.2         |
-|    entropy_loss         | -1.61       |
-|    explained_variance   | -0.000305   |
-|    learning_rate        | 0.0003      |
-|    loss                 | 1.33e+04    |
-|    n_updates            | 10          |
-|    policy_gradient_loss | -0.00184    |
-|    value_loss           | 6.03e+04    |
------------------------------------------
+------------------------------------------
+| eval/                   |              |
+|    mean_ep_length       | 300          |
+|    mean_reward          | -300         |
+| time/                   |              |
+|    total_timesteps      | 2100         |
+| train/                  |              |
+|    approx_kl            | 0.0061038123 |
+|    clip_fraction        | 0.0279       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.61        |
+|    explained_variance   | -0.000354    |
+|    learning_rate        | 0.0003       |
+|    loss                 | 177          |
+|    n_updates            | 10           |
+|    policy_gradient_loss | -0.00323     |
+|    value_loss           | 3.34e+04     |
+------------------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 2200     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 2300     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 2400     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 2500     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 2600     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 2700     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 2800     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 2900     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 3000     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 3100     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 3200     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 3300     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 3400     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 3500     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 240      |
+|    mean_reward     | 160      |
+| time/              |          |
+|    total_timesteps | 3600     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 3700     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 3800     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 3900     |
+---------------------------------
 ---------------------------------
 | eval/              |          |
 |    mean_ep_length  | 300      |
@@ -50,12 +302,12 @@ Logging to ./PEFlogs2/parking_env_feature_log/
 ---------------------------------
 ---------------------------------
 | rollout/           |          |
-|    ep_len_mean     | 215      |
-|    ep_rew_mean     | 609      |
+|    ep_len_mean     | 37.7     |
+|    ep_rew_mean     | 1.96e+03 |
 | time/              |          |
-|    fps             | 547      |
+|    fps             | 122      |
 |    iterations      | 2        |
-|    time_elapsed    | 7        |
+|    time_elapsed    | 33       |
 |    total_timesteps | 4096     |
 ---------------------------------
 -----------------------------------------
@@ -63,19 +315,145 @@ Logging to ./PEFlogs2/parking_env_feature_log/
 |    mean_ep_length       | 300         |
 |    mean_reward          | -300        |
 | time/                   |             |
-|    total_timesteps      | 5000        |
+|    total_timesteps      | 4100        |
 | train/                  |             |
-|    approx_kl            | 0.004677206 |
-|    clip_fraction        | 0.00884     |
+|    approx_kl            | 0.004108792 |
+|    clip_fraction        | 0.0236      |
 |    clip_range           | 0.2         |
 |    entropy_loss         | -1.6        |
-|    explained_variance   | 0.00832     |
+|    explained_variance   | 0.00824     |
 |    learning_rate        | 0.0003      |
-|    loss                 | 1.02e+04    |
+|    loss                 | 4.05e+03    |
 |    n_updates            | 20          |
-|    policy_gradient_loss | -0.00618    |
-|    value_loss           | 3.11e+04    |
+|    policy_gradient_loss | -0.0042     |
+|    value_loss           | 1.67e+04    |
 -----------------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 4200     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 4300     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 4400     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 4500     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 4600     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 4700     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 4800     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 4900     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 5000     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 5100     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 5200     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 5300     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 5400     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 5500     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 5600     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 5700     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 5800     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 5900     |
+---------------------------------
 ---------------------------------
 | eval/              |          |
 |    mean_ep_length  | 300      |
@@ -84,13 +462,20 @@ Logging to ./PEFlogs2/parking_env_feature_log/
 |    total_timesteps | 6000     |
 ---------------------------------
 ---------------------------------
-| rollout/           |          |
-|    ep_len_mean     | 230      |
-|    ep_rew_mean     | 437      |
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
 | time/              |          |
-|    fps             | 515      |
+|    total_timesteps | 6100     |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 20.3     |
+|    ep_rew_mean     | 1.98e+03 |
+| time/              |          |
+|    fps             | 110      |
 |    iterations      | 3        |
-|    time_elapsed    | 11       |
+|    time_elapsed    | 55       |
 |    total_timesteps | 6144     |
 ---------------------------------
 -----------------------------------------
@@ -98,19 +483,138 @@ Logging to ./PEFlogs2/parking_env_feature_log/
 |    mean_ep_length       | 300         |
 |    mean_reward          | -300        |
 | time/                   |             |
-|    total_timesteps      | 7000        |
+|    total_timesteps      | 6200        |
 | train/                  |             |
-|    approx_kl            | 0.004763915 |
-|    clip_fraction        | 0.0209      |
+|    approx_kl            | 0.004494708 |
+|    clip_fraction        | 0.00596     |
 |    clip_range           | 0.2         |
 |    entropy_loss         | -1.6        |
-|    explained_variance   | 0.00458     |
+|    explained_variance   | -0.00465    |
 |    learning_rate        | 0.0003      |
-|    loss                 | 797         |
+|    loss                 | 5.98e+04    |
 |    n_updates            | 30          |
-|    policy_gradient_loss | -0.003      |
-|    value_loss           | 1.66e+04    |
+|    policy_gradient_loss | -0.00614    |
+|    value_loss           | 8.49e+04    |
 -----------------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 241      |
+|    mean_reward     | 159      |
+| time/              |          |
+|    total_timesteps | 6300     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 6400     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 6500     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 6600     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 240      |
+|    mean_reward     | 160      |
+| time/              |          |
+|    total_timesteps | 6700     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 6800     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 6900     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 242      |
+|    mean_reward     | 159      |
+| time/              |          |
+|    total_timesteps | 7000     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 7100     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 7200     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 7300     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 7400     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 241      |
+|    mean_reward     | 159      |
+| time/              |          |
+|    total_timesteps | 7500     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 7600     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 7700     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 242      |
+|    mean_reward     | 158      |
+| time/              |          |
+|    total_timesteps | 7800     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 7900     |
+---------------------------------
 ---------------------------------
 | eval/              |          |
 |    mean_ep_length  | 300      |
@@ -119,33 +623,159 @@ Logging to ./PEFlogs2/parking_env_feature_log/
 |    total_timesteps | 8000     |
 ---------------------------------
 ---------------------------------
-| rollout/           |          |
-|    ep_len_mean     | 225      |
-|    ep_rew_mean     | 502      |
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
 | time/              |          |
-|    fps             | 497      |
+|    total_timesteps | 8100     |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 28.5     |
+|    ep_rew_mean     | 1.97e+03 |
+| time/              |          |
+|    fps             | 110      |
 |    iterations      | 4        |
-|    time_elapsed    | 16       |
+|    time_elapsed    | 74       |
 |    total_timesteps | 8192     |
 ---------------------------------
--------------------------------------------
-| eval/                   |               |
-|    mean_ep_length       | 300           |
-|    mean_reward          | -300          |
-| time/                   |               |
-|    total_timesteps      | 9000          |
-| train/                  |               |
-|    approx_kl            | 0.00069971755 |
-|    clip_fraction        | 0             |
-|    clip_range           | 0.2           |
-|    entropy_loss         | -1.6          |
-|    explained_variance   | 0.00623       |
-|    learning_rate        | 0.0003        |
-|    loss                 | 4.44e+04      |
-|    n_updates            | 40            |
-|    policy_gradient_loss | -0.0013       |
-|    value_loss           | 6.59e+04      |
--------------------------------------------
+------------------------------------------
+| eval/                   |              |
+|    mean_ep_length       | 300          |
+|    mean_reward          | -300         |
+| time/                   |              |
+|    total_timesteps      | 8200         |
+| train/                  |              |
+|    approx_kl            | 0.0067632496 |
+|    clip_fraction        | 0.0145       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.6         |
+|    explained_variance   | -0.000168    |
+|    learning_rate        | 0.0003       |
+|    loss                 | 1.12e+05     |
+|    n_updates            | 40           |
+|    policy_gradient_loss | -0.00511     |
+|    value_loss           | 8.19e+04     |
+------------------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 241      |
+|    mean_reward     | 159      |
+| time/              |          |
+|    total_timesteps | 8300     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 8400     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 8500     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 8600     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 8700     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 8800     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 8900     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 9000     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 9100     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 9200     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 9300     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 9400     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 9500     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 9600     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 9700     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 9800     |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 9900     |
+---------------------------------
 ---------------------------------
 | eval/              |          |
 |    mean_ep_length  | 300      |
@@ -154,12 +784,26 @@ Logging to ./PEFlogs2/parking_env_feature_log/
 |    total_timesteps | 10000    |
 ---------------------------------
 ---------------------------------
-| rollout/           |          |
-|    ep_len_mean     | 216      |
-|    ep_rew_mean     | 614      |
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
 | time/              |          |
-|    fps             | 476      |
+|    total_timesteps | 10100    |
+---------------------------------
+---------------------------------
+| eval/              |          |
+|    mean_ep_length  | 300      |
+|    mean_reward     | -300     |
+| time/              |          |
+|    total_timesteps | 10200    |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 33.8     |
+|    ep_rew_mean     | 1.97e+03 |
+| time/              |          |
+|    fps             | 103      |
 |    iterations      | 5        |
-|    time_elapsed    | 21       |
+|    time_elapsed    | 98       |
 |    total_timesteps | 10240    |
 ---------------------------------

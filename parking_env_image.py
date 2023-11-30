@@ -192,7 +192,3 @@ class ParkingImage(gym.Env):
             self.display_render()
 
         return self.image, self.reward, terminated, False, {}
-
-
-
-

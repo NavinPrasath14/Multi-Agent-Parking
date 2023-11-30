@@ -1,7 +1,7 @@
 from parking_env_image import ParkingImage
 
 env = ParkingImage(render_mode="human")
-obs, info_ = env.reset(seed=13)
+obs, info_ = env.reset(seed=15)
 print(obs)
 
 for _ in range(100):
